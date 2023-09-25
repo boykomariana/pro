@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+table, th, td {
+    border:  solid black;
+}
+p {
+    color: blueviolet;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+}
+/* inline style no es la mejor forma de trabajar, ya que no se puede volver a utilizar en otro html, es preferible trabajar con una hoja de estilo*/
+h1{
+   color: #e22b9c; 
+   border: 1px solid sandybrown;
+   margin-top: 40px;
+   margin-bottom: 20px;
+   margin-left: 10px;
+   margin-right: 10px;
+   padding: 30px 15px 25px 20px;
+   text-align: center;
+}
+h2{
+    color: black;
+    text-align:center;
+    font-family:'Roboto', sans-serif;
+}
+span{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+
+#mi_correo{
+    color:#e22b9c;
+}
+#diseño{
+    color: #e22b9c;
+}
